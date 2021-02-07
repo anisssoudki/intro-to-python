@@ -1,0 +1,29 @@
+fruits = ['orange', 'apple', 'berry']
+i = 0
+ln_of_fruits = len(fruits)
+for fruit in fruits:
+    print(fruit)
+    print(fruits[i])
+    print(fruit == fruits[i])
+    ln_of_fruits = ln_of_fruits-i
+    print(ln_of_fruits)
+    print(i)
+    i = i + 1 
+   
+    print(F"iteration number {i}")
+total = 0 
+for num in range(1,101):
+    if num % 2 == 0: 
+        total += num
+print(total)
+
+
+for number in range(1,101):
+    if number % 3 == 0 and number % 5 == 0 :
+        print('fizz')
+    elif number % 3 == 0:
+        print ('fizzBuzz')
+    elif  number % 5 == 0 :
+        print ('Buzz')  
+    else :
+        print(number)
